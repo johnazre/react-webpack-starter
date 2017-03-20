@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "concurrently 'webpack -w' 'live-server'",
+    "start": "webpack && ./node_modules/.bin/webpack-dev-server --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,9 +23,7 @@
     "babel-loader": "^6.4.1",
     "babel-preset-env": "^1.2.2",
     "babel-preset-react": "^6.23.0",
-    "concurrently": "^3.4.0",
     "css-loader": "^0.27.3",
-    "live-server": "^1.2.0",
     "node-sass": "^4.5.0",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.14.1",

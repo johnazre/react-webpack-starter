@@ -17,7 +17,6 @@ module.exports = {
       {
         test: /\.js$/, // file extension to test for
         include: path.resolve(__dirname, 'src'),
-        // exclude: /(node_modules)/, // doesn't include the node_modules folder
         loader: 'babel-loader', 
         query: {
           presets: ['react', 'env']

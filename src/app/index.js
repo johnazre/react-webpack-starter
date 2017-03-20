@@ -5,4 +5,4 @@ function restIt(...a) {
   return a;
 }
 
-console.log(restIt(1, 2, 3))
+console.log(restIt(1, 2, 3, 4))
