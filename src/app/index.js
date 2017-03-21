@@ -1,8 +1,7 @@
-require('./css/style.scss')
-const b = 2;
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
-function restIt(...a) {
-  return a;
-}
+import AppComponent from './AppComponent'
 
-console.log(restIt(1, 2, 3, 4))
+
+ReactDOM.render(<AppComponent/>, document.getElementById('app'))

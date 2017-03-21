@@ -1,4 +1,5 @@
-var path = require('path');
+const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   // define entry point
@@ -27,5 +28,6 @@ module.exports = {
         loader: 'style-loader!css-loader!sass-loader', // To add loaders, use !
       },
     ]
-  }
+  },
+  devtool: 'inline-source-map',
 }
