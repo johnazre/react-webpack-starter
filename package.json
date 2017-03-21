@@ -1,29 +1,31 @@
 {
-  "name": "webpack-playlist",
+  "name": "react-webpack-starter",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack && ./node_modules/.bin/webpack-dev-server --inline --hot",
+    "start": "concurrently 'webpack -w' 'live-server'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamshaunjp/webpack-playlist.git"
+    "url": "git+https://github.com/johnazre/react-webpack-starter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iamshaunjp/webpack-playlist/issues"
+    "url": "https://github.com/johnazre/react-webpack-starter/issues"
   },
-  "homepage": "https://github.com/iamshaunjp/webpack-playlist#readme",
+  "homepage": "https://github.com/johnazre/react-webpack-starter#readme",
   "devDependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
     "babel-preset-env": "^1.2.2",
     "babel-preset-react": "^6.23.0",
+    "concurrently": "^3.4.0",
     "css-loader": "^0.27.3",
+    "live-server": "^1.2.0",
     "node-sass": "^4.5.0",
     "react-hot-loader": "^1.3.1",
     "sass-loader": "^6.0.3",

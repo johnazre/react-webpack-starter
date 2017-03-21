@@ -1,18 +1,12 @@
-# Webpack/SASS/Babel Starter
+# Webpack/SASS/Babel/React Starter
 
-This is built for anything requiring Webpack. Sass is included, but not necessary.
-
-A few options that could be built with this:
-- Modular [AngularJS](https://angularjs.org/)
-- [AngularJS](https://angularjs.org/) with Typescript (just add `ts-loader`)
-- [ReactJS](https://facebook.github.io/react/)
-- [VueJS](https://vuejs.org/)
+This starter repo uses [ReactJS](https://facebook.github.io/react/), Webpack-dev-server, and Sass.
 
 To get started:
 
 ```
-git clone https://github.com/johnazre/webpack-sass-babel-starter.git
-cd webpack-sass-babel-starter
+git clone https://github.com/johnazre/react-webpack-starter.git
+cd react-webpack-starter
 npm install
 npm start
 ```
